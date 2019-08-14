@@ -15,6 +15,7 @@ app.use('/images', express.static(__dirname + '/public/images'));
 // In order for this to work, the certificates must be in the right place on the server.
 // Use Let's Encrypt to successfully get the keys on the server through the successful completion of the ACME
 // In order to run node without root, all https and http traffic is redirected to a higher port
+// Also change the ownership of the keys and certificates to the one running this (e.g. sudo chown -R ubuntu /etc/letsencrypt)
 var server = https.createServer({
 	  key: fs.readFileSync('/etc/letsencrypt/live/jacobshin.com/privkey.pem'),
 	  cert: fs.readFileSync('/etc/letsencrypt/live/jacobshin.com/cert.pem'),
