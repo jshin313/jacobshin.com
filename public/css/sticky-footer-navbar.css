@@ -37,8 +37,34 @@ code {
   font-size: 80%;
 }
 
-img {
-  width: 100%;
-  height: auto;
+p {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+img {
+  padding-top: 20px; 
+}
+
+a:link {
+color: #343a40;
+}
+a:visited {
+color: #000000;
+}
+a:hover {
+color: #6c757d;
+}
+
+.calc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  clear: both;
+  display:inline-block
+}
+
+.tube {
+  padding-bottom: 30px;
+  clear: both;
+  display:inline-block
+}
