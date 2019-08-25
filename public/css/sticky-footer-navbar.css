@@ -36,3 +36,9 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
