@@ -52,12 +52,26 @@
 
     <p class="lead">This is a remote controlled boat. It uses a calculator to control it. Basically in 2016 a site called <a href="https://www.cemetech.net">cemetech.net</a> hosted a competition with a tranportation theme. I didn't win of course, but I produced this nice calculator controlled boat. The boat has a receiver made up of an Arduino Uno and a NRF24l01 RF module. The trasmitter is attached to the calculator and uses an Arduino Pro Mini with a NRF24l01 RF module as well. I basically used a libarary called <a href="https://www.cemetech.net/news/2014/10/699/_/articl-arduino-ti-calculator-linking-library">ArTICL</a> to interface between the Arduino Pro Mini and the TI-84+ graphing calculator.</p>
 
+    <h2>Going Left</h2> 
     <img src="/images/boat/forward.gif" alt="Forward" width=100% height=auto>
+    <h2>Going Forward</h2>
     <img src="/images/boat/left.gif" alt="Left" width=100% height=auto>
+    <h2>In a Pond</h2>
     <img src="/images/boat/pond.gif" alt="Pond" width=100% height=auto>
 
+    <h2>Pinouts</h2>
+    <p class="lead"><b>Transmitter:</b>
+
+      GND -> GND vcc -> 3.3V CE -> 9 CSN -> 10 SCK -> 13 MOSI-> 11 MISO-> 12
+      RED -> 7 WHITE-> 6
+    </p>
+    <p class="lead">
+      <b>Receiver:</b>
+
+      GND -> GND vcc -> 3.3V CE -> 9 CSN -> 10 SCK -> 13 MOSI-> 11 MISO-> 12
+    </p>
     
-    
+    <p class="lead">To start the boat forward, press the UP arrow. To stop the boat, press the DOWN arrow. To make the boat turn left, press the LEFT arrow. To turn the boat right, press the RIGHT arrow.</p>    
 
 
 
