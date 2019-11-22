@@ -47,13 +47,17 @@ img {
 }
 
 a:link {
-color: #343a40;
+color: #343aff;
 }
 a:visited {
-color: #000000;
+color: #0000ff;
 }
 a:hover {
 color: #6c757d;
+}
+
+h2 {
+  color: #000000;
 }
 
 .calc {
