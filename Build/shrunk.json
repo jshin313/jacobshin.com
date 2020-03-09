@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Climate Change Jawn",
+"productVersion": "0.1",
+"dataUrl": "shrunk.data.unityweb",
+"wasmCodeUrl": "shrunk.wasm.code.unityweb",
+"wasmFrameworkUrl": "shrunk.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.4f1"
+}
